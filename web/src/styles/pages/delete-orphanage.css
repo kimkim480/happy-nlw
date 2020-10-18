@@ -1,0 +1,73 @@
+#delete-orphanage-page {
+    width: 100vw;
+    height: 100vh;
+  
+    background: #FF669D;
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  
+  #delete-orphanage-page .content-wrapper {
+    width: 392px;
+    height: 338px;
+  
+    margin: auto;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #delete-orphanage-page img {
+    width: 400px;
+    height: 490px;
+  
+    margin: auto;
+  }
+  
+  #delete-orphanage-page .content-wrapper h1 {
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 80px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #delete-orphanage-page .content-wrapper p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+  
+    color: #fff;
+    text-align: center;
+  
+    padding-top: 32px;
+    padding-bottom: 60px;
+  }
+  
+  #delete-orphanage-page .content-wrapper .back-button {
+    width: 243px;
+    height: 64px;
+    background: #D6487B;
+    border-radius: 20px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+  
+    transition: background-color 0.2s;
+  }
+  
+  #delete-orphanage-page .content-wrapper .back-button:hover {
+    background: #EE548C;
+  }
+  

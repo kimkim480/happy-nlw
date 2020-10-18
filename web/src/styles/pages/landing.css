@@ -45,22 +45,53 @@
 }
 
 .content-wrapper .location {
-  position: absolute;
-  right: 0;
-  top: 0;
+  position: relative;
+  left: 25%;
+  bottom: 18%;
 
   font-size: 24px;
   line-height: 34px;
 
   display: flex;
   flex-direction: column;
-  text-align: right;
+  text-align: left;
 
   margin: 30px;
 }
 
 .content-wrapper .location strong {
   font-weight: 800;
+}
+
+.content-wrapper .restrict-area {
+  position: absolute;
+  width: 222px;
+  height: 56px;
+  right: 0;
+  top: 0;
+
+  background: #12d4e0;
+  border-radius: 20px;
+
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 800;
+  color: #fff;
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+
+  margin: 30px;
+}
+
+.content-wrapper .restrict-area:hover {
+  background: #96feff;
+  color: #15c3d6;
 }
 
 .content-wrapper .enter-app {
